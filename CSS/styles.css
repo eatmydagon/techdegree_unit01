@@ -67,7 +67,7 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 25% 25% 0 0;
   border: 3px solid white;
   transition: all .5s;
 }
@@ -82,7 +82,10 @@ header .profile-image:hover {
   background: url('../images/experience_background_image.jpg') no-repeat center;
   background-size: cover;
 }
-
+.hobbies_header {
+  background: url('../images/hobbies_background_image2.jpg') no-repeat center;
+  background-size: cover;
+}
 
 
 .tag {
@@ -100,12 +103,18 @@ header .profile-image:hover {
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+}
+.mainpage_section {
+  max-width: 500px;
+}
+.experience_section,
+.hobbies_section {
+  max-width: 800px;
 }
 .card:hover {
   border-color: #ff99ff;
@@ -114,6 +123,9 @@ header .profile-image:hover {
 ul.skills {
   padding: 0;
   text-align: center;
+}
+.hobbies {
+  width: 100%;
 }
 
 .skills li {
